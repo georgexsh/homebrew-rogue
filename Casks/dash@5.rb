@@ -16,7 +16,6 @@ cask "dash@5" do
 
   auto_updates true
   conflicts_with cask: "dash"
-  depends_on macos: ">= :mojave"
 
   app "Dash.app"
 
